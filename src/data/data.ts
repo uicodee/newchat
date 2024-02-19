@@ -1,6 +1,6 @@
 type Status = "Online" | "Offline"
 
-interface Chat {
+export interface Chat {
     id: number;
     fullName: string;
     email: string;
